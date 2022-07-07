@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('./fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Zing-Rust-Demo-Base';
+	src: url('./fonts/Zing-Rust-Demo-Base.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/Zing-Rust-Demo-Base.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/Zing-Rust-Demo-Base.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/Zing-Rust-Demo-Base.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Greenwich';
+    src: local('./fonts/Greenwich Semi Bold'), local('Greenwich-Semi-Bold'),
+        url('./fonts/Greenwich-SemiBold.woff2') format('woff2'),
+        url('./fonts/Greenwich-SemiBold.woff') format('woff'),
+        url('./fonts/Greenwich-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.title {
+    border-left: 5px solid #618967;
+    padding-left: 20px;
+    font-size: 32px;
+    font-family: 'Gilroy-Bold';
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    top: 20px;
+
+}
+
+.accordionTitle {
+    font-size: 18px;
+    font-family: 'Gilroy-Bold';
+    font-weight: 500;
+    color: #fff;
+}
+
+.accordionMain {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.accordionSubTitle {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Gilroy-Bold';
+    font-weight: 400;
+}
+
+.accordion {
+    margin-top: 42px;
+}
+
+.accordionImage {
+    width: 50%;
+}
+
+.imageBack {
+    background-image: url(./backgroundThree.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.workTitle {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Gilroy-Bold';
+}
+
+.workSubTitle {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Gilroy-Bold';
+    padding-left: 40px;
+}
+
+.minimum {
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Gilroy-Bold';
+    padding-top: 40px;
+}
+
+.subMinimum {
+    font-size: 22px;
+    color: #CFCFCF;
+    font-family: 'Gilroy-Bold';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,26 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('./fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Zing-Rust-Demo-Base';
+	src: url('./fonts/Zing-Rust-Demo-Base.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/Zing-Rust-Demo-Base.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/Zing-Rust-Demo-Base.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/Zing-Rust-Demo-Base.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.mainTitleStocks {
+    font-family: 'Gilroy-Bold';
+    border-left: 5px solid #618967;
+  padding-left: 20px;
+  font-size: 32px;
+    position: absolute;
+    left: 200px;
+}

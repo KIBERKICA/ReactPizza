@@ -1,0 +1,90 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('./fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Zing-Rust-Demo-Base';
+	src: url('./fonts/Zing-Rust-Demo-Base.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/Zing-Rust-Demo-Base.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/Zing-Rust-Demo-Base.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/Zing-Rust-Demo-Base.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+
+.background {
+    background: linear-gradient(#44403F, #44403F);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0px;
+}
+
+.thisBuy {
+    font-family: 'Zing-Rust-Demo-Base';
+    font-weight: italic;
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    border-left: 5px solid #618967;
+  padding-left: 20px;
+  left: 200px;
+  top: 750px;
+}
+
+.circleArrow {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: linear-gradient(#618967, #72A479) ;
+}
+
+.circleTitle {
+    font-family: 'Gilroy-Bold';
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.cardButton {
+    background: linear-gradient(#618967, #72A479);
+    width: 145px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.buttonTitle {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding-right: 10px; 
+}
+
+.cardContainer {
+    background: linear-gradient(#494544, #504B4A);
+    border-radius: 10px;
+}
+
+.cardPage {
+    padding-bottom: 50px;
+}
+
+.productInfoTitle {
+    font-family: 'Gilroy-Bold';
+    font-weight: 300;
+    font-size: 10px;
+    color: #fff;
+    padding-left: 50px;
+}
+
+.productInfoSubTitle {
+    font-family: 'Gilroy-Bold';
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 50px;
+}

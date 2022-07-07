@@ -1,0 +1,106 @@
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('./fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Zing-Rust-Demo-Base';
+	src: url('./fonts/Zing-Rust-Demo-Base.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/Zing-Rust-Demo-Base.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/Zing-Rust-Demo-Base.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/Zing-Rust-Demo-Base.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Greenwich';
+    src: local('./fonts/Greenwich Semi Bold'), local('Greenwich-Semi-Bold'),
+        url('./fonts/Greenwich-SemiBold.woff2') format('woff2'),
+        url('./fonts/Greenwich-SemiBold.woff') format('woff'),
+        url('./fonts/Greenwich-SemiBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.background  {
+    background: linear-gradient(#44403F, #44403F);  
+    border-radius: 0px;
+}
+
+.deliveryTItle {
+    border-left: 5px solid #618967;
+    padding-left: 20px;
+    font-size: 32px;
+    color: #fff;
+    font-family: 'Gilroy-Bold'; 
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.fieldOne {
+    background: linear-gradient(#494544, #504B4A);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.fieldTwo {
+    background: linear-gradient(#494544, #504B4A);
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+.contactPageInfo {
+    font-size: 18px;
+    font-family: 'Gilroy-Bold'; 
+    font-weight: 700;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.fieldButton {
+    background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+border-radius: 0px 10px 10px 0px;
+width: 181px;
+height: 60px;
+}
+
+.fieldButtonTwo {
+width: 181px;
+height: 60px;
+}
+
+#outlined-basic {
+border-radius: 10px;
+}
+
+.deliveryLabel {
+    color: #fff;
+}
+
+.arrange {
+    width: 209px;
+height: 51px;
+
+background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
+border-radius: 10px;
+margin: 20px;
+}
+
+.backgroundTwo {
+    background: linear-gradient(360deg, #211F20 0%, #44403F 100%);
+}
+
+.conditionsInfo {
+    color: #72A479;
+    font-size: 13px;
+    font-family: 'Gilroy-Bold'; 
+    position: relative;
+    left: -150px;
+    top: 40px;
+}
